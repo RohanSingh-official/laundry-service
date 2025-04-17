@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Locker Access - SparkleClean</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">SparkleClean</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="business-solutions.html">Business Solutions</a></li>
+                <li><a href="eco-friendly.html">Eco-Friendly</a></li>
+                <li><a href="custom-plan.html">Custom Plan</a></li>
+                <li><a href="educational-content.html">Tips & Tricks</a></li>
+                <li><a href="virtual-consultation.html">Virtual Consultation</a></li>
+                <li><a href="smart-lockers.html">Smart Lockers</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="subscription.html">Subscription</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="smart-lockers" class="smart-lockers">
+            <h2>Smart Locker Access</h2>
+            <p>Convenient 24/7 drop-off and pickup with our smart lockers.</p>
+            <div class="locker-map">
+                <h3>Find a Locker Near You</h3>
+                <img src="https://www.parkland.edu/portals/3/Users/073/73/73/locker%20map636982787231221624-crop1100x1068.png?ver=2019-07-09-091912-770" alt="Map of Smart Locker Locations">
+                <!-- In a real implementation, this would be an interactive map -->
+            </div>
+            <div class="locker-access">
+                <h3>Access Your Locker</h3>
+                <form id="lockerAccessForm">
+                    <div class="form-group">
+                        <label for="locker-id">Locker ID:</label>
+                        <input type="text" id="locker-id" name="locker-id" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="access-code">Access Code:</label>
+                        <input type="text" id="access-code" name="access-code" required>
+                    </div>
+                    <button type="submit">Open Locker</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Include the same footer as in index.html -->
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                    <li><a href="terms-of-service.html">Terms of Service</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">FB</a>
+                    <a href="#" class="social-icon">TW</a>
+                    <a href="#" class="social-icon">IG</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form id="newsletterForm">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <p>&copy; 2024 SparkleClean Laundry Service. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
